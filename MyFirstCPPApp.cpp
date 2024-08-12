@@ -3,10 +3,10 @@ using namespace std;    // Help by minimize using std::
 
 int main()  // Main function
 {
-    // std is the namepace for cout
-    cout << "Hello World!\n";  // This will output to the console Hello World!
-    cout << "My name is Prem." << endl;
-    cout << "Today is Sunday.";
+    // Variables -- container for certain data types
+    float annualSalary = 50000.99;
+    float monthlySalary = annualSalary / 12;
+    cout << "You monthly salary is " << monthlySalary;
 
     // Use to get rid of extra info on the console
     system("pause>0");
