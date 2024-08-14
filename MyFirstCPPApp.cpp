@@ -3,10 +3,11 @@ using namespace std;
 
 int main()
 {
-    // Data Type overflow
-    int intMax = INT_MAX;
-    cout << intMax << endl;
-    cout << intMax + 1 << endl; // The number is overflow so it show negative number (minimal number)
+    // ASCII -- American Standard Code for Information Interchange
+    cout << (int)'a' << endl;   // Casting operator
+    cout << int('a') << endl;   // Output 97
+    cout << int('A') << endl;   // Output 65
+    cout << char(65) << endl;   // Output A
 
     system("pause>0");
 }
