@@ -3,12 +3,24 @@ using namespace std;
 
 int main()
 {
-    // Ciphering words using ASCII
-    char c1, c2, c3, c4, c5;    // You can assign variables like this since they are of the same type
-    cout << "Enter 5 letters: ";
-    cin >> c1 >> c2 >> c3 >> c4 >> c5;  // Getting input; will not take space and enter as character
-    cout << "\nASCII message: " << int(c1) << " " << int(c2) << " " << int(c3)
-        << " " << int(c4) << " " << int(c5);
+    // If Else Statement
+    // Tasks:
+    // User enters integer number (whole number)
+    // Program write out if that number is even or odd
+
+    int number;
+    cout << "Please enter whole number ";
+    cin >> number;
+    if (number % 2 == 0)    // Used == for comparison and = to assign
+    {
+        cout << "You have entered even number" << endl;
+    }
+    else
+    {
+        cout << "You have entered odd number" << endl;
+    }
+
+    cout << "Thanks. Bye.";
 
     system("pause>0");
 }
