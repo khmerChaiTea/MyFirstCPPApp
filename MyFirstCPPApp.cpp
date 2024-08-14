@@ -1,19 +1,30 @@
-#include <iostream> // Header file, a library
-using namespace std;    // Help by minimize using std::
+#include <iostream>
+using namespace std;
 
-int main()  // Main function
+int main()
 {
-    // Variables -- container for certain data types
-    float annualSalary; // No assign value yet -- will throw a build error (Danger, uninitialized variables)
-    cout << "Please enter your annual salary ";    // Write a message to the user
-    cin >> annualSalary;
-    float monthlySalary = annualSalary / 12;    // Compiler error
-    cout << "You monthly salary is " << monthlySalary;
-    cout << "\nIn ten years you will earn " << annualSalary * 10 << endl;   // Notice that '\n' for new line or 'endl' is another way for new line
+    // Data Types
+    int yearOfBirth = 1995;
+    char gender = 'f';  // Stored 'f' or 'm' -- female for male
+    bool isOlderThan18 = true;  // Used for true or false
+    float averageGrade = 4.5;   // Used for decimal (4 bytes) or 32 bits
+    double balance = 468466546165; // Used for decimal (8 bytes), double the float
 
-    char characater = 'a';  // Use '' for character variables -- give meaningful name to your variables
+    cout << "Size of int is " << sizeof(int) << " bytes\n";
+    // -1, -2, -3, ..., -2147483648
+    cout << "Int min value is " << INT_MIN << endl; // INT_MIN is reserved word
+    // 0, 1, 2, 3, ..., 2147483647
+    cout << "Int max value is " << INT_MAX << endl; // INT_MAX is reserved word
 
-    // Use to get rid of extra info on the console
+    // Used for positive values
+    cout << "Size of unsigned int is " << sizeof(unsigned int) << " bytes\n";
+    cout << "UInt max value is " << UINT_MAX << endl;
+
+    cout << "Size of bool is " << sizeof(bool) << " bytes\n";
+    cout << "Size of char is " << sizeof(char) << " bytes\n";
+    cout << "Size of float is " << sizeof(float) << " bytes\n";
+    cout << "Size of double is " << sizeof(double) << " bytes\n";
+
     system("pause>0");
 }
 
