@@ -3,24 +3,23 @@ using namespace std;
 
 int main()
 {
-    // If Else Statement
+    // If Else Statement (Nested)
     // Tasks:
-    // User enters integer number (whole number)
-    // Program write out if that number is even or odd
+    // Users enters side lengths of a triangle (a, b, c)
+    // Program should write out whether that triangle is equilateral, isosceles or scalene
+    float a, b, c;
+    cout << "a, b, c: ";
+    cin >> a >> b >> c;
 
-    int number;
-    cout << "Please enter whole number ";
-    cin >> number;
-    if (number % 2 == 0)    // Used == for comparison and = to assign
-    {
-        cout << "You have entered even number" << endl;
-    }
+    if (a == b && b == c)   // Please check
+        cout << "Equilateral triangle"; // If only pnly one code you can omit '{}'
     else
     {
-        cout << "You have entered odd number" << endl;
+        if (a != b && a != c && b != c)
+            cout << "Scalene triangle";
+        else
+            cout << "Isosceles triangle";
     }
-
-    cout << "Thanks. Bye.";
 
     system("pause>0");
 }
