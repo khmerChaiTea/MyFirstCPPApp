@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="MyFirstApp11.cpp" />
     <ClCompile Include="MyFirstApp12.cpp" />
+    <ClCompile Include="MyFirstApp13.cpp" />
     <ClCompile Include="MyFirstCPPApp.cpp" />
     <ClCompile Include="MyFirstApp10.cpp" />
   </ItemGroup>
