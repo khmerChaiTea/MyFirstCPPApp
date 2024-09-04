@@ -133,6 +133,7 @@
     <ClCompile Include="MyFirstApp14.cpp" />
     <ClCompile Include="MyfirstApp15.cpp" />
     <ClCompile Include="MyFirstApp16.cpp" />
+    <ClCompile Include="MyFirstApp17.cpp" />
     <ClCompile Include="MyFirstCPPApp.cpp" />
     <ClCompile Include="MyFirstApp10.cpp" />
   </ItemGroup>
