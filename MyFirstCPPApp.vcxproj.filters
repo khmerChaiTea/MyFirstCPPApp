@@ -34,5 +34,8 @@
     <ClCompile Include="MyFirstApp17.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MyFirstApp18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
